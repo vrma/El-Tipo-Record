@@ -6,7 +6,7 @@ public class App {
 
     public static void main(String[] args) {
     
-        // Una clase final significa: Que ninguna otra clase puede heredar de ella
-        Persona persona = new Persona();
+        Persona persona = new Persona("Alex Eduardo", 1.80,
+         "Pilicita", "pili@gmail.com");
     }
 }
