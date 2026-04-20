@@ -8,5 +8,10 @@ public class App {
     
         Persona persona = new Persona("Alex Eduardo", 1.80,
          "Pilicita", "pili@gmail.com");
+
+        Persona persona2 = Persona.builder()
+            .correo("mmm@gmail.com")
+            .nombre("Duglas")
+            .build();
     }
 }

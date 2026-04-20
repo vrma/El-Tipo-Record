@@ -1,5 +1,7 @@
 package com.example;
 
+import lombok.Builder;
+
 /**
  * El record no es una mero atajo para crear una clase que permita crear objetos inmutables,
  * es decir, que una vez creado no se puedan modificar.
@@ -21,6 +23,7 @@ package com.example;
  * constructor espera ni tampoco tendriamos que respetar el orden
  * 
  */
+@Builder
 public record  Persona(
     String nombre, 
     double altura, 
